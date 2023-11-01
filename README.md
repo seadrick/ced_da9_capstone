@@ -25,7 +25,7 @@ Once Spotify and Billboard data is merged, I began to pull lyrics using the Geni
  
 This code processes each song in data_1959 dataframe and attempts to pull its lyrics from the Genius API.  The ‘Lyrics’ column is either updated with the proper lyrics with the appropriate message should they not be discovered.
  
-Once lyrics were pulled, TextBlob was used to generate sentiment analysis. 
+Once lyrics were pulled, TextBlob (https://www.topcoder.com/thrive/articles/getting-started-with-textblob-for-sentiment-analysis)was used to generate sentiment analysis. 
 When all data was pulled I began to utilize seaborn to plot out my information.
 Conclusion: 
  
